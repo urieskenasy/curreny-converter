@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/9a5b135e13.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <h1>Crypto Converter - BTC - ETH - LTC</h1>
+      <form id="formCrypto">
+        <div>
+          <label for="crypto" id="first">Crypto-currency </label>
+          <select name="crypto" id="crypto">
+            <option value="btc">BTC</option>
+            <option value="eth">ETH</option>
+            <option value="ltc">LTC</option>
+          </select>
+        </div>
+        <input type="number" name="cryptoNum" id="crypto-num" />
+        <div>
+          <label for="currency" id="second">Currency</label>
+          <select name="currency" id="currency">
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+            <option value="jpy">JPY</option>
+          </select>
+        </div>
+        <input
+          type="number"
+          name="currencyNum"
+          id="currency-num"
+          disabled="disabled"
+        />
+        <button type="submit">Convert</button>
+      </form>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
