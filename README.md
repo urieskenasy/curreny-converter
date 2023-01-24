@@ -2,6 +2,6 @@
 
 # Curreny Converter
 
-Small Application that convertes for you dollars, euros, and british pounds into crypto currencies (bit-coin & lite-coin). I have created this app to practice the use of third party api. 
+Small Application that converts your dollars, euros, and British pounds into cryptocurrencies (bit-coin & lite-coin). I have created this app to practice the use of third-party API.
 
 [Live Version](https://urieskenasy.github.io/curreny-converter/)
